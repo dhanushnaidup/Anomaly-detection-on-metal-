@@ -22,5 +22,8 @@ Usnig the recomstruction approach in unsupervised learning.
 GAN model is used where training the model with both old and new defects. just an sample dataset is  trained with less number of images
 The model will take the input image and reconstruct it. then it will calculate the Anomaly Score.  It will calculate the anomaly score by the euclidean distance between the original img and reconstructed images.
 Considering the thershold valus for defect. if the anomaly score is greater then threshold considered as defect.
+It wa just 42%of accuracy.
+![image](https://github.com/user-attachments/assets/11792ca3-9f14-4cf0-82f5-6cf7caa01cbf)
+After fine-turning, Still developement and fine-turning should be made on your dataset. 
 ![image](https://github.com/user-attachments/assets/44978e95-bd45-4ac5-9b8e-1d1c4d26ab7a)
 
