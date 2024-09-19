@@ -1,3 +1,6 @@
+
+Approach 1 : CV approach.
+
 ![Screenshot 2024-09-17 094229](https://github.com/user-attachments/assets/4872c40e-dd61-4f6c-aaee-442c72199abd)# Anomaly-detection-on-metal-
 Detection Anomaly on Metals using the CV technique.
 
@@ -10,3 +13,12 @@ Validating the frequency of defect sample dataset then giving it as thershold fr
 Then this will plot a histgram graph of the frequency/gray scale. Accesing the value of frequency from the graph it can classify the defects and non defects.
 
 ![Screenshot 2024-09-17 142854](https://github.com/user-attachments/assets/a30a5cd7-60ab-473e-a315-7d268f5ac300)
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Approach 2: GAN Model approch
+Usnig the recomstruction approach in unsupervised learning.
+GAN model is used where training the model with both old and new defects. just an sample dataset is  trained with less number of images
+The model will take the input image and reconstruct it. then it will calculate the Anomaly Score.  It will calculate the anomaly score by the euclidean distance between the original img and reconstructed images.
+Considering the thershold valus for defect. if the anomaly score is greater then threshold considered as defect.
